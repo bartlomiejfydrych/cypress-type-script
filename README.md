@@ -24,11 +24,27 @@ There are publicly available websites for learning Frontend test automation and 
 
 # 📝Moje notatki (notes for me in PL, you don't have to read this)
 
-## 📚Dokumentacja
+## 📚Dokumentacja i przydatne linki
 
 - [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
 - [TypeScript](https://www.typescriptlang.org/docs/)
+- [To repozytorium (żeby przechodzić tu z IDE)](https://github.com/bartlomiejfydrych/cypress-type-script)
+- [Kurs - Codenbox AutomationLab](https://www.youtube.com/playlist?list=PLN9RL2PyZc19eQy4xrIva67SpB8jNqHAo)
 
 ## 🔧Konfiguracja
 
-1. Instalujemy [Node.js](https://nodejs.org/en/download)
+1. Dodajemy plik `.gitignore` z szablonem pod Node.js
+2. Instalujemy [Node.js](https://nodejs.org/en/download)
+3. Otwieramy terminal w katalogu z projektem
+4. Możemy sprawdzić czy mamy prawidłowo zainstalowanego Node'a za pomocą poleceń:\
+`node -v`\
+`npm -v`
+5. Wpisujemy i zatwierdzamy polecenie `npm init -y`\
+Ten `-y` oznacza, że w konsoli odpowiadamy na wszystko domyślnie "yes" podczas tego procesu.\
+Powinniśmy po tym mieć utworzony w katalogu plik `package.json`
+6. (Opcjonalne) We wtyczkach VSC możemy wyszukać i zainstalować `Code Runner`\
+Jest to wtyczka mogąca ułatwiać nam uruchamianie kodu w VSC.
+7. Instalujemy **Cypress** poleceniem `npm install cypress`\
+W dokumentacji jest polecenie `npm install cypress --save-dev`\
+Ten dopisek `--save-dev` należy do **npm** i generalnie jest bardziej dla Developerów korzystających z tego narzędzia do testów. Sprawia on, że produkcyjny build nie ma tego instalowane. Npm install to pomija wtedy.
+8. Instalujemy **TypeScript** poleceniem `npm install typescript`
